@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Eslam Badawy @yield('title')</title>
+        <title>@yield('title')</title>
 
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -23,6 +23,7 @@
                     <a href="{{route('home.index')}}">Home</a>
                     <a href="{{route('home.about')}}">About</a>
                     <a href="{{route('computers.index')}}">Computers</a>
+                    <a href="{{route('computers.create')}}">Create</a>
                     <a href="{{route('home.contact')}}">Contact</a>
                 </nav>
             </div>
